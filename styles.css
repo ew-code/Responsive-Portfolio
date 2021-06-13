@@ -1,9 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    line-height: 1;
 }
 
 .sky {
+    overflow-x: hidden;
     position: relative;
     background-image: linear-gradient( #F3BADB, #F6D19C );
     width: 100%;
@@ -64,4 +69,23 @@ body {
     width: 5%;
     bottom: 30%;
     margin-right: 31%;
+}
+
+#air-balloon {
+    width: 10%;
+    bottom: 10%;
+}
+
+.about-me {
+  height: 600px;
+  background-color: #69D31D;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+    color:white;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
 }
